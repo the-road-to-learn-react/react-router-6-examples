@@ -4,6 +4,7 @@ import {
   useQueryParams,
   StringParam,
   BooleanParam,
+  withDefault,
 } from 'use-query-params';
 
 const App = () => {
@@ -53,8 +54,8 @@ const Bookshelf = () => {
   ];
 
   const [search, setSearch] = useQueryParams({
-    title: StringParam,
-    isCompleted: BooleanParam,
+    title: withDefault(StringParam, ''),
+    isCompleted: withDefault(BooleanParam, false),
   });
 
   const handleTitle = (event) => {
