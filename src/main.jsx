@@ -7,7 +7,9 @@ import {
 } from 'react-router-dom';
 import { QueryParamProvider } from 'use-query-params';
 
-import App from './App.jsx';
+// import App from './App.jsx';
+// import App from './App.Redirect.jsx';
+import App from './App.Authentication.jsx';
 // import App from './App.Nested.jsx';
 // import App from './App.Descendant.jsx';
 // import App from './App.QueryParams.jsx';
