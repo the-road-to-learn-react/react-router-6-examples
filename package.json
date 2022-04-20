@@ -7,6 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@loadable/component": "^5.15.2",
     "history": "^5.1.0",
     "query-string": "^7.0.1",
     "react": "^17.0.0",
